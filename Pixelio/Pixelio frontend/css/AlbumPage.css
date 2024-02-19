@@ -1,0 +1,43 @@
+.album-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffaddf; /* Light pink header */
+    padding: 1em;
+  }
+  
+  .app-title {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  
+  .album-grid {
+    flex-grow: 1;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1em;
+    overflow-y: auto;
+  }
+  
+  .album-card {
+    background-color: #50bfa0; /* Pastel green for album cards */
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .album-card h2 {
+    margin-top: 0.5em;
+  }
+  

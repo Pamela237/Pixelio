@@ -1,0 +1,60 @@
+.home-page {
+    font-family: 'Open Sans', sans-serif; /* Example font */
+    color: #333; /* Dark grey text by default */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffaddf; /* Light pink header */
+    padding: 1em;
+  }
+  
+  .app-title {
+    font-size: 1.5em;
+    color: #ffffff; /* White text for the app title */
+  }
+  
+  .upload-btn {
+    font-size: 1.5em;
+    background-color: #50bfa0; /* Pastel green button */
+    border: none;
+    border-radius: 50%;
+    color: #ffffff; /* White text for button */
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+  }
+  
+  .image-grid {
+    flex-grow: 1;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1em;
+    overflow-y: auto;
+  }
+  
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffaddf; /* Light pink bottom nav */
+    padding: 1em;
+  }
+  
+  .bottom-nav a,
+  .search-btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #333; /* Dark grey text */
+    text-decoration: none;
+  }
+  
+  .search-btn {
+    cursor: pointer;
+  }
+  

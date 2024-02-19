@@ -1,0 +1,17 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffaddf; /* Light pink bottom nav */
+    padding: 1em;
+  }
+  
+  .bottom-nav a,
+  .search-btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #333; /* Dark grey text */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
